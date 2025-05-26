@@ -39,4 +39,7 @@ python main.py
    - Sheet: Indeksi – raw monthly CPI data
    - Sheet: Inflacija – inflation rates with formulas
    - Sheet: Polugodista – summary by half-years
+![CoreInflation](https://github.com/EmilijaRam/inflacija-indexi/blob/main/CoreInflation.png)
+![Half-yearly report on cost of living](https://github.com/EmilijaRam/inflacija-indexi/blob/main/Half-yearly%20report%20on%20cost%20of%20living.png)
+![Half-yearly report on inflation](https://github.com/EmilijaRam/inflacija-indexi/blob/main/Half-yearly%20report%20on%20inflation.png)
 
