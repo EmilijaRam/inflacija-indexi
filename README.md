@@ -1,59 +1,42 @@
-Инфлациски 
-Месечни индекси и анализа
-Овој Python проект автоматски влече податоци преку API од Државниот завод за статистика на РСМ и пресметува месечна, годишна, 5-годишна и 7-годишна инфлација. Податоците се чуваат во Excel фајл и се генерира полугодишен извештај со визуелен графикон.
+# 📈 Inflation Tracker – Cost of Living Indices
 
-📂 Фајлови
-main.py — главната скрипта која:
+Python script that automatically downloads monthly cost of living indices, stores them in Excel, and calculates 1-year, 5-year, and 7-year inflation rates with correction by days and compound index.
 
-автоматски влече податоци од API,
+---
 
-ги ажурира индексите,
+## ✨ Features
 
-пресметува инфлација,
+- ✅ Automatic download of monthly consumer price indices (CPI)
+- 🧮 Inflation calculations for 1, 5, and 7 years
+- 📅 Half-year data organization (H1 and H2)
+- 📊 Excel output with structured sheets and data updates
+- 📈 Optional visualization (line chart for inflation trend)
 
-и креира извештаи.
+---
 
-Indexi za trosoci na zivot.xlsx — Excel база со индекси на трошоци на живот.
+## 🛠️ Technologies
 
-Polugodishen_grafik.png — автоматски генериран график за полугодишни индекси.
+- Python 3.x  
+- pandas, openpyxl  
+- Excel formulas  
+- matplotlib (optional)
 
-🛠️ Библиотеки
-pandas
+---
 
-numpy
+## 🚀 Installation
 
-requests
+git clone https://github.com/EmilijaRam/inflacija-indexi.git
+cd inflacija-indexi
+pip install -r requirements.txt
+---
 
-openpyxl
+## ▶️ Usage
+python main.py
+---
 
-matplotlib
-
-▶️ Како да се користи
-Осигурај се дека Indexi za trosoci na zivot.xlsx постои (или ќе се креира при првото извршување).
-
-Покрени main.py.
-
-Скриптата ќе:
-
-провери за нови месечни податоци преку API,
-
-ги додаде во базата,
-
-пресмета инфлациски стапки,
-
-и генерира извештаи и график.
-
-📊 Резултат
-Excel фајлот ќе содржи листи:
-
-baza_inflacija — база со сите индекси и пресметки.
-
-Полугодишен извештај — агрегирани индекси по полугодие.
-
-И автоматски ќе се креира PNG график (Polugodishen_grafik.png) за визуелна анализа.
-
-Извор на податоци: Податоците се превземаат директно од јавниот API на Државниот завод за статистика на РСМ.
-
-Автор: EmilijaRam
-GitHub проект за Python портфолио.
+## 📸 Example Output
+🧾 Excel Output Structure
+   - Sheet: Indeksi – raw monthly CPI data
+   - Sheet: Inflacija – inflation rates with formulas
+   - Sheet: Polugodista – summary by half-years
 
